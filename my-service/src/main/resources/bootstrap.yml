@@ -1,0 +1,9 @@
+spring:
+   application:
+      name: my-service
+encrypt:
+  keyStore:
+    location: classpath:/server.jksaaaa
+    password: letmein
+    alias: mytestkey
+    secret: changeme

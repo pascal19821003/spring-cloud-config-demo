@@ -1,0 +1,20 @@
+# Edit this as appropriate
+#project.home: ${user.home}/dev
+spring:
+   config:
+       name: configserver
+   cloud:
+       config:
+           server:
+               git:
+       #           uri: https://github.com/dturanski/config-repo
+#                 uri: file://${project.home}/config-repo
+                  uri: https://github.com/pascal19821003/springconfig
+
+#
+# Recommend using an environment variable `ENCRYPT_KEY` in production
+#
+# encrypt.key: secretKey
+
+server:
+   port: 8888

@@ -1,0 +1,17 @@
+{
+  "name": "config-server",
+  "profiles": [
+    "default"
+  ],
+  "label": null,
+  "version": "7646207773b55c830c489d8bef17a1a3265c02d3",
+  "propertySources": [
+    {
+      "name": "https://github.com/dturanski/config-repo/application.yml",
+      "source": {
+        "info.foo": "the next new value",
+        "invalid.my.password": "<n/a>"
+      }
+    }
+  ]
+}
